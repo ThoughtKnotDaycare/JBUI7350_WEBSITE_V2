@@ -1,0 +1,77 @@
+<!-- Josh Buitenhuis - 7350945 --> 
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Wayne, Gretzky, Great, One, The Great One, 99, Brantford">
+        <meta name="description" content="The great one and the greatest hockey player to ever play the game.">
+        <meta width="device-width">
+        <meta initial-scale="1.0">
+
+        <title>Wayne Gretzky</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/syles.css">
+    </head>
+    <body>
+        <header>Wayne Gretzky</header>
+        <nav>
+            <li id="index"><a href="index.html">Home</a></li>
+            <li id="contact"><a href="contact.html">Contact</a></li>
+        </nav>
+        <main>
+            <h2>Contact Form</h2>
+            <form name="contact_form" id="contact_form" action="submit.php" method="post">
+                <label for="user_name">Please enter your full name: </label>
+                <input type="text" id="user_name" name="user_name" placeholder="Enter your name" required autofocus>
+
+                <label for="user_email">Please enter your email address: </label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="birthday">Please enter your date of birth: </label>
+                <input type="date" id="birthday" name="birthday">
+
+                <label for="country">Choose your country: </label>
+                <select name="country" id="country">
+                    <option value="" selected>Choose a country</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="textbox"></label>
+                <textarea name="textbox" id="textbox" cols="30" rows="10" placeholder="Any questions or concerns?"></textarea>
+
+                <button type="submit" id="submit" name="submit">Submit</button>
+
+
+                
+            </form>
+        
+        </main>
+        <aside>
+            <h3>FAQ's</h3>
+            <table>
+                <tr>
+                    <th>Why number 99?</th>
+                    <th>How many points does he have?</th>
+                    <th>When did he retire?</th>
+                </tr>
+                <tr>
+                    <td>Wayne Gretzky originally wanted to wear Gordie Howe's number 9, but when it was unavailible he chose to wear number 99.</td>
+                    <td>Wayne ammassed a staggering 2857 points in his 1487 games played.</td>
+                    <td>Wayne retired after the 1998-99 season.</td>
+                </tr>
+            </table>
+            <h3>Links</h3>
+            <ul>
+                <li><a href="https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=2035" target="_blank">Wayne's Hockey DB page</a></li>
+                <li><a href="https://www.gretzky.com/" target="_blank">Wayne's official website</a></li>
+            </ul>
+        </aside>
+        <footer>
+            <p>
+                &copy; Josh Buitenhuis, 2024
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,147 @@
+/* Josh Buitenhuis - 7350945 */
+
+*{margin: 0%;}
+
+html {font: 1.2rem "Comic Sans", sans-serif;}
+
+h1, h2 {font-variant: small-caps; color: plum}
+
+figcaption {font-weight: bold; font-variant: small-caps; font-size: 1rem;}
+
+q {font-size: 1rem; font-family: cursive; font-style: italic;}
+
+footer p {font-size: 1rem;}
+
+body {width: 75%; max-width: 1000px; padding: 1rem;}
+
+.main-section-figure img {height: 15em; width: 12em; padding: 1rem; border-radius: 5%; margin: 0 auto; display: block;}
+
+iframe {height: 20em;width: 30em;padding: 1rem; border: 1em solid rgb(17, 190, 26); border-radius: 10%;}
+
+header, footer {text-align: center; border: 1rem solid #004384; background-color: rgb(82, 44, 60);}
+
+main {text-align: center; padding: 1rem; background-color: hsla(42, 10%, 75%, 0.6); float: left; width: 45%;}
+
+#bio {text-align: left; float: left; width: 40%; }
+
+#quote {padding: 1rem; border: rgb(12, 32, 86); box-shadow: 1em 1em 1em olive;}
+
+#relative-path-image {border: 1rem solid rgb(rgb(58, 39, 39), rgb(71, 75, 71), rgb(7, 7, 17)); border-radius: 10%; background-color: hsla(42, 10%, 75%, 0.6); float: right;} 
+
+#absolute-path-image {border: 1rem solid rgb(rgb(165, 95, 95), rgb(136, 172, 136), rgb(12, 12, 68)); border-radius: 10%; background-color: hsla(42, 10%, 75%, 0.6);}
+
+#relative-path-image figcaption {color: rgb(17, 104, 104);}
+
+#absolute-path-image figcaption {color: rgb(17, 24, 11);}
+
+nav {  list-style: none;}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: inherit;
+    color: rgb(66, 0, 128);
+    display: inline-block;
+    width: 17rem;
+    padding: 2rem;
+    margin: 1em; 
+    border: 1em solid gold; 
+    background-color: green;
+    text-align: center;
+}
+
+nav a:hover {background-color: aqua; color: blueviolet;}
+
+#index{float: left; width: 48%}
+
+#contact{float: right; width: 48%;}
+
+aside{float: right; width: 30%;}
+
+footer{clear: both;}
+
+section + section {clear: both;}
+
+header {color: black; text-align: center;}
+
+table {border: 1px solid black;  top: 50%; float: right;}
+
+th {
+    font-weight:bold ;
+    font-style: italic;
+    font-variant: small-caps;
+    color: blue;
+    padding: 8px;
+}
+
+td {
+    font-weight: lighter;
+    font-style: oblique;
+    font-variant: small-caps;
+    color: orangered;
+    text-align: center;
+    padding: 8px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: palevioletred;
+    line-height: 1.5;
+}
+
+a:hover{color: red;}
+
+#picture{text-align: right;}
+
+form{
+    padding: 20px;
+    margin: 10px;
+    float: left;
+}
+
+label{
+    color: black;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-align: right;
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* For small screens */
+@media only screen and(max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* For mid screens */
+@media only screen and (min-width: 601px) and (max-width:900px) {
+    main, aside{
+        float: none;
+        width: auto;
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+/* For large screens */
+@media only screen and (min-width: 901px) {
+    main, aside{
+        width: 70%;
+        padding: 20px;
+        margin-right: 10%;
+        margin-left: auto;
+    }
+}
+
+/* I cannot for the life of me get anything on this website to layout properly or work. I can't get my elements to float nicely or sit beside eachother.
